@@ -1,0 +1,15 @@
+{
+  "name": "legacy-to-utf8",
+  "version": "0.0.1",
+  "description": "Convert legacy text files to UTF-8.",
+  "main": "index.js",
+  "dependencies": {
+    "glob": "^7.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Guard <damieng@gmail.com>",
+  "license": "MIT"
+}
