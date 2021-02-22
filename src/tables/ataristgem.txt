@@ -40,6 +40,7 @@
 # The entries are in Atari ST order.
 #
 # Version history
+# 1.x Modified CR and LF so can convert files correctly
 # 1.4 New file that maps control characters to GEM characters as described
       at https://en.wikipedia.org/wiki/GEM_character_set
 # 1.3 Thanks to Yves-Marie K. Rinquin for error report.
@@ -75,10 +76,10 @@
 0x07	0x25C6	# BELL                                      	# <BEL>	ISO646
 0x08	0x2713	# BACKSPACE                                 	# <BS>	ISO646
 0x09	0x1F552	# HORIZONTAL TABULATION                     	# <TAB>	ISO646
-0x0A	0x1F514	# LINE FEED                                 	# <LF>	ISO646
+0x0A	0x000A	# LINE FEED                                 	# <LF>	ISO646
 0x0B	0x266A	# VERTICAL TABULATION                       	# <VT>	ISO646
 0x0C	0x25B4	# FORM FEED                                 	# <FF>	ISO646
-0x0D	0x25BE	# CARRIAGE RETURN                           	# <CR>	ISO646
+0x0D	0x000D	# CARRIAGE RETURN                           	# <CR>	ISO646
 0x0E	0x25B8	# SHIFT OUT                                 	# <SO>	ISO646
 0x0F	0x25C2	# SHIFT IN                                  	# <SI>	ISO646
 0x10	0x25BA	# DATA LINK ESCAPE                          	# <DLE>	ISO646
