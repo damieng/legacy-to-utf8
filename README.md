@@ -14,6 +14,19 @@ node src/index.js *.TXT atarist converted/
 
 The current formats are `atarist` (Atari ST), `atascii` (Atari 8-bit), `petscii-c64` (Commodore 64) and `zxspectrum` (ZX Spectrum). If you want to add more find a unicode mapping table and drop it into the `tables` folder.
 
+### Options
+
+- [--wrap n] - Force a line wrap at column **n**
+- [--trim] - Trim whitespace from the end of each line
+
+## Examples
+
+To convert Spectrum Tasword 2/3 files into regular PC text;
+
+```bash
+node src/index.js *.T zxspectrum converted/ --wrap 64 --trim
+```
+
 ## Limitations
 
 - It performs large in-memory string concats instead of streaming buffers so it's inefficient but then you're only going to run it once so :shrug:
