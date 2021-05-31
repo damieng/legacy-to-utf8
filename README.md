@@ -16,8 +16,8 @@ The current formats are `atarist` (Atari ST), `atascii` (Atari 8-bit), `petscii-
 
 ### Options
 
-- [--wrap n] - Force a line wrap at column **n**
-- [--trim] - Trim whitespace from the end of each line
+- `--wrap n` - Force a line wrap at column **n**
+- `--trim` - Trim whitespace from the end of each line
 
 ## Examples
 
